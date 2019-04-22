@@ -1,6 +1,21 @@
 # boukamin
 Site de micro service qui va permettre au utilisateur de mettre a disposition des clients différents services a prix réduis(5 000 et +) !!!
 
+#comment installer sur votre machine
+
+1- git clone https://github.com/rg4amia/boukamin.git (NB: Pour Windows installer git c'est gratuit faite suivant)
+
+2- install composer url: https://kgaut.net/blog/2017/installer-composer-sous-windows.html
+
+3- install nodejs la dernière version url: https://nodejs.org/en/
+
+4- met toi a la racine du projet dans ton htdocs/boukamin ou www/boukamin 
+    a- tapez cette commande : composer install
+    b- en suite cette commande : npm install
+    c- php artisan serve 
+    d- ouvre ton navigateur : http://localhost:8000
+
+
 # Exemple
 Voir se lien : https://5euros.com/
 
