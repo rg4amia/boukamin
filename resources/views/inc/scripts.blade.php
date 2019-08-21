@@ -2,7 +2,6 @@
 <!-- Scripts
 ================================================== -->
 <script src="{{asset('assets/js/jquery-3.3.1.min.js.js.php')}}"></script>
-<script src="{{asset('assets/js/jquery-3.3.1.min.js.js.php')}}"></script>
 <script src="{{asset('assets/js/mmenu.min.js.js.php')}}"></script>
 <script src="{{asset('assets/js/tippy.all.min.js.js.php')}}"></script>
 <script src="{{asset('assets/js/simplebar.min.js.js.php')}}"></script>

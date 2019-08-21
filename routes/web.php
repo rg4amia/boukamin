@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('accueil.index');
-});
+Route::get('/{any?}', function () {
+    return view('frontend.HomePage');
+})->where('any', '^(?!api\/)[\/\w\.-]*');

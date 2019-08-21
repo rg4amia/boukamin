@@ -20,7 +20,7 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+//Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -28,6 +28,29 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-const app = new Vue({
-    el: '#app'
+import 'es6-promise/auto'
+import axios from 'axios'
+import Vue from 'vue'
+import VueAxios from 'vue-axios'
+import VueRouter from 'vue-router'
+import Index from './Index'
+import router from './router/router'
+
+// Set Vue globally
+window.Vue = Vue
+
+// Set Vue router
+Vue.router = router
+Vue.use(VueRouter)
+
+// Set Vue authentication
+Vue.use(VueAxios, axios)
+axios.defaults.baseURL = `${process.env.MIX_APP_URL}/api/bkv1`
+
+// Load Index
+Vue.component('Index', Index)
+
+const boukamin = new Vue({
+    el: '#boukamin',
+    router
 });
