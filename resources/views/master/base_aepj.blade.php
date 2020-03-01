@@ -835,7 +835,6 @@
                     </div>
                 </div>
 
-
                 {{--<fieldset>
                     <legend>Informaion personnel</legend>
                     <div class="row">
