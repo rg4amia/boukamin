@@ -42,10 +42,10 @@
         </div>
         <div class="responsive-opensec">
             <div class="btn-extars">
-                <a href="#" title="" class="post-job-btn"><i class="la la-plus"></i>Post Jobs</a>
+                <a href="#" title="" class="post-job-btn"><i class="la la-plus"></i>Annonces</a>
                 <ul class="account-btns">
-                    <li class="signup-popup"><a title=""><i class="la la-key"></i> Sign Up</a></li>
-                    <li class="signin-popup"><a title=""><i class="la la-external-link-square"></i> Login</a></li>
+                    <li class="signup-popup"><a title=""><i class="la la-key"></i>S'enregistrer</a></li>
+                    <li class="signin-popup"><a title=""><i class="la la-external-link-square"></i> se connecter</a></li>
                 </ul>
             </div><!-- Btn Extras -->
             <form class="res-search">
@@ -162,17 +162,17 @@
                     <a href="index.html" title=""><img class="hidesticky" src="{{ asset('assets_aepj/images/resource/logo.png') }}" alt="" /><img class="showsticky" src="{{ asset('assets_aepj/images/resource/logo10.png') }}" alt="" /></a>
                 </div><!-- Logo -->
                 <div class="btn-extars">
-                    <a href="#" title="" class="post-job-btn"><i class="la la-plus"></i>Post Jobs</a>
+                    <a href="#" title="" class="post-job-btn"><i class="la la-plus"></i>Annonces</a>
                     <ul class="account-btns">
-                        <li class="signup-popup"><a title=""><i class="la la-key"></i> Sign Up</a></li>
-                        <li class="signin-popup"><a title=""><i class="la la-external-link-square"></i> Login</a></li>
+                        <li class="signup-popup"><a title=""><i class="la la-key"></i>S'enregistrer</a></li>
+                        <li class="signin-popup"><a title=""><i class="la la-external-link-square"></i>Connexion</a></li>
                     </ul>
                 </div><!-- Btn Extras -->
                 <nav>
                     <ul>
-                        <li class="menu-item-has-children">
-                            <a href="#" title="">Home</a>
-                            <ul>
+                        <li class="menu-item">
+                            <a href="#" title="">Accueil</a>
+                            {{--<ul>
                                 <li><a href="index.html" title="">Home Layout 1</a></li>
                                 <li><a href="index2.html" title="">Home Layout 2</a></li>
                                 <li><a href="index3.html" title="">Home Layout 3</a></li>
@@ -181,89 +181,66 @@
                                 <li><a href="index6.html" title="">Home Layout 6</a></li>
                                 <li><a href="index7.html" title="">Home Layout 7</a></li>
                                 <li><a href="index8.html" title="">Home Layout 8</a></li>
-                            </ul>
+                            </ul>--}}
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="#" title="">Employers</a>
+                            <a href="#" title="">Presentation</a>
                             <ul>
-                                <li><a href="employer_list1.html" title=""> Employer List 1</a></li>
-                                <li><a href="employer_list2.html" title="">Employer List 2</a></li>
-                                <li><a href="employer_list3.html" title="">Employer List 3</a></li>
-                                <li><a href="employer_list4.html" title="">Employer List 4</a></li>
-                                <li><a href="employer_single1.html" title="">Employer Single 1</a></li>
-                                <li><a href="employer_single2.html" title="">Employer Single 2</a></li>
                                 <li class="menu-item-has-children">
-                                    <a href="#" title="">Employer Dashboard</a>
+                                    <a href="#" title="">Agence Emploie Jeune</a>
                                     <ul>
-                                        <li><a href="employer_manage_jobs.html" title="">Employer Job Manager</a></li>
-                                        <li><a href="employer_packages.html" title="">Employer Packages</a></li>
-                                        <li><a href="employer_post_new.html" title="">Employer Post New</a></li>
-                                        <li><a href="employer_profile.html" title="">Employer Profile</a></li>
-                                        <li><a href="employer_resume.html" title="">Employer Resume</a></li>
-                                        <li><a href="employer_transactions.html" title="">Employer Transaction</a></li>
-                                        <li><a href="employer_job_alert.html" title="">Employer Job Alert</a></li>
-                                        <li><a href="employer_change_password.html" title="">Employer Change Password</a></li>
+                                        <li><a href="#" title="">Historique</a></li>
+                                        <li><a href="#" title="">Mission</a></li>
+                                        <li><a href="#" title="">Organisation</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#" title="">Statistiques & Analyses</a>
+                                    <ul>
+                                        <li><a href="#" title="">Statistiques et indicateurs</a></li>
+                                        <li><a href="#" title="">Visualisation des statistiques</a></li>
+                                        <li><a href="#" title="">Etudes de recherches</a></li>
+                                        <li><a href="#" title="">Rapports d'activités</a></li>
+                                        <li><a href="#" title="">Rapports d'enquêtes</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="#" title="">Candidates</a>
+                            <a href="#" title="">Interventions</a>
                             <ul>
-                                <li><a href="candidates_list.html" title="">Candidates List 1</a></li>
-                                <li><a href="candidates_list2.html" title="">Candidates List 2</a></li>
-                                <li><a href="candidates_list3.html" title="">Candidates List 3</a></li>
-                                <li><a href="candidates_single.html" title="">Candidates Single 1</a></li>
-                                <li><a href="candidates_single2.html" title="">Candidates Single 2</a></li>
-                                <li class="menu-item-has-children">
-                                    <a href="#" title="">Candidates Dashboard</a>
-                                    <ul>
-                                        <li><a href="candidates_my_resume.html" title="">Candidates Resume</a></li>
-                                        <li><a href="candidates_my_resume_add_new.html" title="">Candidates Resume new</a></li>
-                                        <li><a href="candidates_profile.html" title="">Candidates Profile</a></li>
-                                        <li><a href="candidates_shortlist.html" title="">Candidates Shortlist</a></li>
-                                        <li><a href="candidates_job_alert.html" title="">Candidates Job Alert</a></li>
-                                        <li><a href="candidates_dashboard.html" title="">Candidates Dashboard</a></li>
-                                        <li><a href="candidates_cv_cover_letter.html" title="">CV Cover Letter</a></li>
-                                        <li><a href="candidates_change_password.html" title="">Change Password</a></li>
-                                        <li><a href="candidates_applied_jobs.html" title="">Candidates Applied Jobs</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="#" title="">Emploi salarié</a></li>
+                                <li><a href="#" title="">Offre de service</a></li>
+                                <li><a href="#" title="">Financement de projet</a></li>
+                                <li><a href="#" title="">Développement des compétences</a></li>
+                                <li><a href="#" title="">Programmes Spécifiques</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="#" title="">Blog</a>
+                            <a href="#" title="">Financement</a>
                             <ul>
-                                <li><a href="blog_list.html"> Blog List 1</a></li>
-                                <li><a href="blog_list2.html">Blog List 2</a></li>
-                                <li><a href="blog_list3.html">Blog List 3</a></li>
-                                <li><a href="blog_single.html">Blog Single</a></li>
+                                <li><a href="#" title="">Deposer son proje</a></li>
+                                <li><a href="#" title="">Procedure de financement</a></li>
+                                <li><a href="#" title="">Financement de projet</a></li>
+                                <li><a href="#" title="">Développement des compétences</a></li>
+                                <li><a href="#" title="">Programmes Spécifiques</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item-has-children">
-                            <a href="#" title="">Job</a>
-                            <ul>
-                                <li><a href="job_list_classic.html">Job List Classic</a></li>
-                                <li><a href="job_list_grid.html">Job List Grid</a></li>
-                                <li><a href="job_list_modern.html">Job List Modern</a></li>
-                                <li><a href="job_single1.html">Job Single 1</a></li>
-                                <li><a href="job_single2.html">Job Single 2</a></li>
-                                <li><a href="job-single3.html">Job Single 3</a></li>
-                            </ul>
+                        {{--<li class="menu-item">
+                            <a href="#" title="">Agir pour les jeunes</a>
+
                         </li>
+                        <li class="menu-item">
+                            <a href="#" title="">Competences</a>
+                        </li>--}}
                         <li class="menu-item-has-children">
-                            <a href="#" title="">Pages</a>
-                            <ul>
-                                <li><a href="about.html" title="">About Us</a></li>
-                                <li><a href="404.html" title="">404 Error</a></li>
-                                <li><a href="contact.html" title="">Contact Us 1</a></li>
-                                <li><a href="contact2.html" title="">Contact Us 2</a></li>
-                                <li><a href="faq.html" title="">FAQ's</a></li>
-                                <li><a href="how_it_works.html" title="">How it works</a></li>
-                                <li><a href="login.html" title="">Login</a></li>
-                                <li><a href="pricing.html" title="">Pricing Plans</a></li>
-                                <li><a href="register.html" title="">Register</a></li>
-                                <li><a href="terms_and_condition.html" title="">Terms & Condition</a></li>
+                            <a href="#" title="">Actualités</a>
+                           <ul>
+                                <li><a href="#" title="">Actu AEJ</a></li>
+                                <li><a href="#" title="">Emploi jeunes TV</a></li>
+                                <li><a href="#" title="">Newsletters</a></li>
+                                <li><a href="#" title="">Photos</a></li>
+                                <li><a href="#" title="">FAQ</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -279,27 +256,27 @@
                     <div class="col-lg-12">
                         <div class="main-featured-sec">
                             <div class="new-slide">
-                                <img src="{{ asset('assets_aepj/images/slide/entrepreneuriat-500-jeunes-du-hambol-recoivent-leur-cheque-670x360.jpg') }}">
+                                <img src="{{ asset('assets_aepj/images/resource/p2.jpg') }}">
                             </div>
                             <div class="job-search-sec">
                                 <div class="job-search">
-                                    <h3>The Easiest Way to Get Your New Job</h3>
-                                    <span>Find Jobs, Employment & Career Opportunities</span>
+                                    <h3>Le moyen le plus simple de trouver un nouvel <br>emploi en Cote d'Ivoire</h3>
+                                    <span>Trouver un emploi, des opportunités d'emploi et de carrière</span>
                                     <form>
                                         <div class="row">
                                             <div class="col-lg-7 col-md-5 col-sm-12 col-xs-12">
                                                 <div class="job-field">
-                                                    <input type="text" placeholder="Job title, keywords or company name" />
+                                                    <input type="text" placeholder="Titre du poste, mots-clés ou nom de l'entreprise" />
                                                     <i class="la la-keyboard-o"></i>
                                                 </div>
                                             </div>
                                             <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
                                                 <div class="job-field">
-                                                    <select data-placeholder="City, province or region" class="chosen-city">
-                                                        <option>New York </option>
-                                                        <option>Istanbul</option>
-                                                        <option>London</option>
-                                                        <option>Russia</option>
+                                                    <select data-placeholder="Ville, province ou région" class="chosen-city">
+                                                        <option>Abidjan </option>
+                                                        <option>Bouake</option>
+                                                        <option>Gagnoa</option>
+                                                        <option>Yamoussoukro</option>
                                                     </select>
                                                     <i class="la la-map-marker"></i>
                                                 </div>
@@ -310,8 +287,8 @@
                                         </div>
                                     </form>
                                     <div class="or-browser">
-                                        <span>Browse job offers by</span>
-                                        <a href="#" title="">Category</a>
+                                        {{--<span>Browse job offers by</span>
+                                        <a href="#" title="">Category</a>--}}
                                     </div>
                                 </div>
                             </div>
@@ -448,8 +425,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="heading">
-                            <h2>Featured Jobs</h2>
-                            <span>Leading Employers already using job and talent.</span>
+                            <h2>Emplois vedettes</h2>
+                            <span>Les principaux employeurs solicitent déjà vos talents.</span>
                         </div><!-- Heading -->
                         <div class="job-listings-sec">
                             <div class="job-listing">
@@ -805,38 +782,82 @@
 <div class="account-popup-area signup-popup-box">
     <div class="account-popup">
         <span class="close-popup"><i class="la la-close"></i></span>
-        <h3>Sign Up</h3>
+        <h3>S'enregistrer</h3>
         <div class="select-user">
-            <span>Candidate</span>
-            <span>Employer</span>
+            <span id="select-jeune">Jeune</span>
+            <span id="select-entreprise">Entreprise</span>
+            <span id="select-cabinet">Cabinet</span>
         </div>
-        <form>
-            <div class="cfield">
-                <input type="text" placeholder="Username" />
-                <i class="la la-user"></i>
-            </div>
-            <div class="cfield">
-                <input type="password" placeholder="********" />
-                <i class="la la-key"></i>
-            </div>
-            <div class="cfield">
-                <input type="text" placeholder="Email" />
-                <i class="la la-envelope-o"></i>
-            </div>
-            <div class="dropdown-field">
-                <select data-placeholder="Please Select Specialism" class="chosen">
-                    <option>Web Development</option>
-                    <option>Web Designing</option>
-                    <option>Art & Culture</option>
-                    <option>Reading & Writing</option>
-                </select>
-            </div>
-            <div class="cfield">
-                <input type="text" placeholder="Phone Number" />
-                <i class="la la-phone"></i>
-            </div>
-            <button type="submit">Signup</button>
-        </form>
+
+            <form id="form-jeune" style="display: none;">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="cfield">
+                            <input type="text" placeholder="Nom" />
+                            <i class="la la-user"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="cfield">
+                            <input type="text" placeholder="Prénom" />
+                            <i class="la la-users"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="cfield">
+                            <input type="text" placeholder="Username" />
+                            <i class="la la-user"></i>
+                        </div>
+                    </div>
+
+                </div>
+                {{--<fieldset>
+                    <legend>Informaion personnel</legend>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="cfield">
+                                <input type="text" placeholder="Username" />
+                                <i class="la la-user"></i>
+                            </div>
+                            <div class="cfield">
+                                <input type="password" placeholder="********" />
+                                <i class="la la-key"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cfield">
+                        <input type="text" placeholder="Email" />
+                        <i class="la la-envelope-o"></i>
+                    </div>
+                    <div class="cfield">
+                        <input type="text" placeholder="Username" />
+                        <i class="la la-user"></i>
+                    </div>
+                    <div class="cfield">
+                        <input type="password" placeholder="********" />
+                        <i class="la la-key"></i>
+                    </div>
+                    <div class="cfield">
+                        <input type="text" placeholder="Email" />
+                        <i class="la la-envelope-o"></i>
+                    </div>
+                    <div class="dropdown-field">
+                        <select data-placeholder="Please Select Specialism" class="chosen">
+                            <option>Web Development</option>
+                            <option>Web Designing</option>
+                            <option>Art & Culture</option>
+                            <option>Reading & Writing</option>
+                        </select>
+                    </div>
+                    <div class="cfield">
+                        <input type="text" placeholder="Phone Number" />
+                        <i class="la la-phone"></i>
+                    </div>
+                </fieldset>--}}
+                <button type="submit">Soumettre</button>
+            </form>
+
         <div class="extra-login">
             <span>Or</span>
             <div class="login-social">
@@ -846,7 +867,6 @@
         </div>
     </div>
 </div><!-- SIGNUP POPUP -->
-
 <script data-cfasync="false" src="{{ asset('assets_aepj/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js') }}"></script>
 <script src="{{ asset('assets_aepj/js/jquery.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('assets_aepj/js/modernizr.js') }}" type="text/javascript"></script>
@@ -856,6 +876,26 @@
 <script src="{{asset('assets_aepj/js/slick.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets_aepj/js/parallax.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets_aepj/js/select-chosen.js')}}" type="text/javascript"></script>
+<script>
+
+   $('#select-entreprise').click(function() {
+       $('#form-jeune').fadeOut();
+       $('#form-cabinet').fadeOut();
+       $('#form-entreprise').fadeIn();
+   });
+
+   $('#select-cabinet').click(function() {
+       $('#form-cabinet').fadeIn();
+       $('#form-jeune').fadeOut();
+       $('#form-entreprise').fadeOut();
+   });
+
+   $('#select-jeune').click(function() {
+       $('#form-jeune').fadeIn();
+       $('#form-cabinet').fadeOut();
+       $('#form-entreprise').fadeOut();
+    });
+</script>
 
 </body>
 </html>

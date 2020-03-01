@@ -831,7 +831,7 @@ label::after {
 .account-popup {
     position: relative;
     float: left;
-    width: 460px;
+    width: 860px;
     background: #ffffff;
     z-index: 1;
 
@@ -841,7 +841,7 @@ label::after {
     -o-border-radius: 8px;
     border-radius: 8px;
 
-    left: 50%;
+    left: 40%;
     margin-left: -230px;
     margin-top: 140px;
     margin-bottom: 60px;
@@ -1161,7 +1161,7 @@ label::after {
     width: 100%;
     padding: 9px 0;
     font-size: 30px;
-    background-color: #8b91dd; height: 61px;
+    background-color: #28a745; height: 61px;
     border-radius: 8px;
 }
 .job-search form .row {
@@ -10688,7 +10688,7 @@ terms {
 }
 
 .job-search form button:hover{
-     background: #fb236a;
+     background: #ff6900;
 }
 .or-browser > a:hover {
     background: #ffffff;
@@ -10774,7 +10774,7 @@ header.style4 .account-btns > li a:hover {
     color: #ffffff;
 }
 .job-search form button:hover {
-    background: #fb236a;
+    background: #ff6900;
 }
 .p-category.style2:hover > a i {
     color: #fb236a;
@@ -11599,7 +11599,7 @@ footer.ft .scrollup {
     background: -webkit-linear-gradient(130deg, rgba(20,31,114,1) 0%,rgba(52,65,161,1) 71%,rgba(52,65,161,1) 100%);
     background: -o-linear-gradient(130deg, rgba(20,31,114,1) 0%,rgba(52,65,161,1) 71%,rgba(52,65,161,1) 100%);
     background: -ms-linear-gradient(130deg, rgba(20,31,114,1) 0%,rgba(52,65,161,1) 71%,rgba(52,65,161,1) 100%);
-    background: linear-gradient(130deg, #f55c00 30%,#28a745 0%,#28a745 60%);
+    background: linear-gradient(120deg, rgba(255, 105, 0, 0.77) 65%,rgba(40, 167, 69, 0.65) 0%, rgba(40, 167, 69, 0.65) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b91dd', endColorstr='#10195d',GradientType=1 );
 
 }
