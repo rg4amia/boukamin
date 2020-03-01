@@ -746,7 +746,7 @@
 </div>
 
 <div class="account-popup-area signin-popup-box">
-    <div class="account-popup">
+    <div class="account-popup" style="width: 460px; left: 50%;">
         <span class="close-popup"><i class="la la-close"></i></span>
         <h3>User Login</h3>
         <span>Click To Login With Demo User</span>
@@ -788,7 +788,6 @@
             <span id="select-entreprise">Entreprise</span>
             <span id="select-cabinet">Cabinet</span>
         </div>
-
             <form id="form-jeune" style="display: none;">
                 <div class="row">
                     <div class="col-lg-6">
@@ -805,12 +804,38 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="cfield">
-                            <input type="text" placeholder="Username" />
+                            <select data-placeholder="Allow In Search" class="chosen" style="display: none;">
+                                <option value="masculin">Masculin</option>
+                                <option value="feminin">Feminin</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="cfield">
+                            <input type="date" placeholder="Date naissance"/>
+                            <i class="la la-calendar-o"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="cfield">
+                            <input type="text" placeholder="Nom et prenom du pere" />
                             <i class="la la-user"></i>
                         </div>
                     </div>
-
+                    <div class="col-lg-6">
+                        <div class="cfield">
+                            <input type="text" placeholder="Nom et prenom de la mere" />
+                            <i class="la la-user"></i>
+                        </div>
+                    </div><div class="col-lg-6">
+                        <div class="cfield">
+                            <input type="text" placeholder="Situation matrimoniale" />
+                            <i class="la la-user"></i>
+                        </div>
+                    </div>
                 </div>
+
+
                 {{--<fieldset>
                     <legend>Informaion personnel</legend>
                     <div class="row">
