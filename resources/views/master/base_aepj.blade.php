@@ -509,8 +509,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="heading light">
-                            <h2>Kind Words From Happy Candidates</h2>
-                            <span>What other people thought about the service provided by JobHunt</span>
+                            <h2>Des mots aimables de la part de candidats heureux</h2>
+                            <span>Ce que d'autres personnes ont pensé du service fourni par Agence Emploie Jeune </span>
                         </div><!-- Heading -->
                         <div class="reviews-sec" id="reviews-carousel">
                             <div class="col-lg-6">
@@ -554,8 +554,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="heading">
-                            <h2>Companies We've Helped</h2>
-                            <span>Some of the companies we've helped recruit excellent applicants over the years.</span>
+                            <h2>Entreprises que nous avons aidées</h2>
+                            <span>Certaines des entreprises que nous avons aidées à recruter d'excellents candidats au fil des ans.</span>
                         </div><!-- Heading -->
                         <div class="comp-sec">
                             <div class="company-img">
@@ -587,8 +587,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="heading">
-                            <h2>Quick Career Tips</h2>
-                            <span>Found by employers communicate directly with hiring managers and recruiters.</span>
+                            <h2>Conseils pour une carrière rapide</h2>
+                            <span>Trouvé par les employeurs communiquent directement avec les responsables de l'embauche et les recruteurs.</span>
                         </div><!-- Heading -->
                         <div class="blog-sec">
                             <div class="row">
@@ -654,8 +654,10 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="simple-text">
-                            <h3>Gat a question?</h3>
-                            <span>We're here to help. Check out our FAQs, send us an email or call us at 1 (800) 555-5555</span>
+                            <h3>Une question ?</h3>
+                            <span>Nous sommes là pour vous aider. Consultez notre FAQ,
+                                envoyez-nous un courriel
+                                ou appelez-nous au +225 555-5555</span>
                         </div>
                     </div>
                 </div>
@@ -673,9 +675,12 @@
                                 <div class="logo">
                                     <a href="index.html" title=""><img src="{{ asset('assets_aepj/images/resource/logo.png') }}" alt="" /></a>
                                 </div>
-                                <span>Collin Street West, Victor 8007, Australia.</span>
-                                <span>+1 246-345-0695</span>
-                                <span><a href="cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bcd5d2dad3fcd6d3ded4c9d2c892dfd3d1">[email&#160;protected]</a></span>
+                                <span>Abidjan plateau.</span>
+                                <span>+225 47500630 </span>
+                                <span>
+                                    <a href="#">r4gamia@gmail.com</a>
+                                    {{--<a href="cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bcd5d2dad3fcd6d3ded4c9d2c892dfd3d1">[email&#160;protected]</a>--}}
+                                </span>
                                 <div class="social">
                                     <a href="#" title=""><i class="fa fa-facebook"></i></a>
                                     <a href="#" title=""><i class="fa fa-twitter"></i></a>
@@ -688,23 +693,23 @@
                     </div>
                     <div class="col-lg-4 column">
                         <div class="widget">
-                            <h3 class="footer-title">Frequently Asked Questions</h3>
+                            <h3 class="footer-title">Foire aux questions</h3>
                             <div class="link_widgets">
                                 <div class="row">
-                                    <div class="col-lg-6">
+                                   {{-- <div class="col-lg-6">
                                         <a href="#" title="">Privacy & Seurty </a>
                                         <a href="#" title="">Terms of Serice</a>
                                         <a href="#" title="">Communications </a>
                                         <a href="#" title="">Referral Terms </a>
                                         <a href="#" title="">Lending Licnses </a>
                                         <a href="#" title="">Disclaimers </a>
-                                    </div>
+                                    </div>--}}
                                     <div class="col-lg-6">
                                         <a href="#" title="">Support </a>
-                                        <a href="#" title="">How It Works </a>
-                                        <a href="#" title="">For Employers </a>
-                                        <a href="#" title="">Underwriting </a>
-                                        <a href="#" title="">Contact Us</a>
+                                        <a href="#" title="">Comment cela fonctionne-t-il ? </a>
+                                        <a href="#" title="">Pour les employeurs </a>
+                                        <a href="#" title="">Souscription </a>
+                                        <a href="#" title="">Contactez-nous</a>
                                     </div>
                                 </div>
                             </div>
@@ -712,14 +717,14 @@
                     </div>
                     <div class="col-lg-2 column">
                         <div class="widget">
-                            <h3 class="footer-title">Find Jobs</h3>
+                            <h3 class="footer-title">Trouver un emploi</h3>
                             <div class="link_widgets">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <a href="#" title="">US Jobs</a>
-                                        <a href="#" title="">Canada Jobs</a>
-                                        <a href="#" title="">UK Jobs</a>
-                                        <a href="#" title="">Emplois en Fnce</a>
+                                        <a href="#" title="">Abidjan Jobs</a>
+                                        <a href="#" title="">Korogho Jobs</a>
+                                        <a href="#" title="">Yamoussoukro Jobs</a>
+                                        <a href="#" title="">Macory Jobs</a>
                                         <a href="#" title="">Jobs in Deuts</a>
                                         <a href="#" title="">Vacatures China</a>
                                     </div>

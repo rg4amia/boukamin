@@ -14,6 +14,8 @@
 Route::get('/', function () {
     return view('frontend.HomePage');
 })->where('any', '^(?!api\/)[\/\w\.-]*');
+Route::get('/dashboard', 'HomeController@dashboard')->name('dashboard');
+
 
 Auth::routes();
 
