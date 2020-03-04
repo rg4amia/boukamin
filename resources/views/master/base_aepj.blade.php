@@ -789,23 +789,23 @@
             <span id="select-entreprise">Entreprise</span>
             <span id="select-cabinet">Cabinet</span>
         </div>
-            <form id="form-jeune" style="display: none;">
+            <form id="form-jeune" style="display: none;" method="POST" action="{{ route('register') }}">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="cfield">
-                            <input type="text" placeholder="Nom" />
+                            <input type="text" placeholder="Nom" name="nom" value="{{ old('nom') }}"/>
                             <i class="la la-user"></i>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="cfield">
-                            <input type="text" placeholder="Prénom" />
+                            <input type="text" placeholder="Prénom" name="prenom"/>
                             <i class="la la-users"></i>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="pf-field">
-                            <select data-placeholder="Allow In Search" class="chosen" style="display: none;">
+                            <select data-placeholder="Allow In Search" name="sexe" class="chosen" style="display: none;">
                                 <option value="masculin">Masculin</option>
                                 <option value="feminin">Feminin</option>
                             </select>
@@ -813,37 +813,37 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="pf-field">
-                            <input type="date" placeholder="Date naissance"/>
+                            <input type="date" placeholder="Date naissance" name="datenaissance"/>
                             <i class="la la-calendar-o"></i>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="cfield">
-                            <input type="text" placeholder="Nom et prenom du pere" />
+                            <input type="text" placeholder="Nom et prenom du pere" name="nompere" />
                             <i class="la la-user"></i>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="cfield">
-                            <input type="text" placeholder="Nom et prenom de la mere" />
+                            <input type="text" placeholder="Nom et prenom de la mere" name="nommere" />
                             <i class="la la-user"></i>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="pf-field">
-                            <select data-placeholder="Allow In Search" class="chosen" style="display: none;">
+                        <div class="pf-field" style="margin-bottom: 19px;">
+                            <select data-placeholder="Allow In Search"  name="situationmatrimoniale" class="chosen" style="display: none;">
                                 <option disabled="" selected="" value=""> -- Situation matrimoniale  -- </option>
-                                <option value="3">Celibataire</option>
-                                <option value="5">Divorce(e)</option>
-                                <option value="2">En concubinage</option>
-                                <option value="1">Marie(e)</option>
-                                <option value="4">Veuf ou Veuve</option>
+                                <option value="Celibataire">Celibataire</option>
+                                <option value="Divorce">Divorce(e)</option>
+                                <option value="En concubinage">En concubinage</option>
+                                <option value="Marie(e)">Marie(e)</option>
+                                <option value="Veuf ou Veuve">Veuf ou Veuve</option>
                             </select>
                         </div><br>
                     </div>
                     <div class="col-lg-6">
-                        <div class="pf-field">
-                            <select data-placeholder="Allow In Search" class="chosen" style="display: none;">
+                        <div class="pf-field" style="margin-bottom: 19px;">
+                            <select data-placeholder="Allow In Search" name="paysnaissance" class="chosen" style="display: none;">
                                 <option disabled="" selected="" value=""> -- Le pays de naissance   -- </option>
                                 <option value="13">Afghanistan</option>
                                 <option value="14">Afrique du Sud</option>
@@ -990,8 +990,8 @@
                         </div><br>
                     </div>
                     <div class="col-lg-6">
-                        <div class="pf-field">
-                            <select data-placeholder="Allow In Search" class="chosen" style="display: none;">
+                        <div class="pf-field" style="margin-bottom: 19px;">
+                            <select data-placeholder="Allow In Search" name="lieunaissance" class="chosen" style="display: none;">
                                 <option disabled="" selected="" value=""> -- Lieu de naissance  -- </option>
                                 <option value="1">Abengourou</option>
                                 <option value="2">Abie</option>
@@ -2014,8 +2014,8 @@
                         </div><br>
                     </div>
                     <div class="col-lg-6">
-                        <div class="pf-field">
-                            <select data-placeholder="Allow In Search" class="chosen" style="display: none;">
+                        <div class="pf-field" style="margin-bottom: 19px;">
+                            <select data-placeholder="Allow In Search" name="paysnationalite" class="chosen" style="display: none;">
                                 <option disabled="" selected="" value=""> -- Pays de nationalité  -- </option>
                                 <option value="13">Afghanistan</option>
                                 <option value="14">Afrique du Sud</option>
@@ -2162,8 +2162,8 @@
                         </div><br>
                     </div>
                     <div class="col-lg-6">
-                        <div class="pf-field">
-                            <select data-placeholder="Allow In Search" class="chosen" style="display: none;">
+                        <div class="pf-field" style="margin-bottom: 19px;">
+                            <select data-placeholder="Allow In Search"  name="paysresidence"  class="chosen" style="display: none;">
                                 <option disabled="" selected="" value=""> -- Pays de residence  -- </option>
                                 <option value="13">Afghanistan</option>
                                 <option value="14">Afrique du Sud</option>
@@ -2311,8 +2311,8 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <div class="pf-field">
-                            <select data-placeholder="Allow In Search" class="chosen" style="display: none;">
+                        <div class="pf-field" style="margin-bottom: 19px;">
+                            <select data-placeholder="Allow In Search" name="villeresidence" class="chosen" style="display: none;">
                                 <option disabled="" selected="" value=""> -- Ville de residence  -- </option>
                                 <option value="1">Abengourou</option>
                                 <option value="2">Abie</option>
@@ -3336,8 +3336,8 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <div class="pf-field">
-                            <select data-placeholder="Allow In Search" class="chosen" style="display: none;">
+                        <div class="pf-field" style="margin-bottom: 19px;">
+                            <select data-placeholder="Allow In Search" name="lieuhabitation" class="chosen" style="display: none;">
                                 <option disabled="" selected="" value=""> -- Lieu d'habitation  -- </option>
                                 <option value="1">Abengourou</option>
                                 <option value="2">Abie</option>
@@ -4360,83 +4360,71 @@
                         </div><br>
                     </div>
                     <div class="col-lg-6">
-                        <div class="pf-field">
-                            <select data-placeholder="Allow In Search" class="chosen" style="display: none;">
+                        <div class="pf-field" style="margin-bottom: 19px;">
+                            <select data-placeholder="Allow In Search" name="pieceidentite" class="chosen" style="display: none;">
                                 <option disabled="" selected="" value=""> -- Type pièce d'identité  -- </option>
-                                <option value="2">Attestation</option>
-                                <option value="1">CNI</option>
-                                <option value="3">Passeport</option>
-                                <option value="4">Permis de conduire</option>
+                                <option value="Attestation">Attestation</option>
+                                <option value="CNI">CNI</option>
+                                <option value="Passeport">Passeport</option>
+                                <option value="Permis de conduire">Permis de conduire</option>
                             </select>
                         </div><br>
                     </div>
 
                     <div class="col-lg-6">
                         <div class="cfield">
-                            <input type="text" placeholder="Numero de la pièce" />
+                            <input type="text" placeholder="Numero de la pièce" name="numeropiece"/>
                             <i class="la la-credit-card"></i>
                         </div><br>
                     </div>
                     <div class="col-lg-6">
                         <div class="pf-field" style="margin-bottom: 19px;">
-                            <select data-placeholder="Allow In Search" class="chosen" style="display: none;">
+                            <select data-placeholder="Allow In Search" name="situationhandicap" class="chosen" style="display: none;">
                                 <option disabled="" selected="" value=""> -- Situation de handicap  -- </option>
-                                <option value="1">Handicap</option>
-                                <option value="2">Sans handicap</option>
+                                <option value="Handicap">Handicap</option>
+                                <option value="Sans handicap">Sans handicap</option>
                             </select>
                         </div><br>
                     </div>
 
                     <fieldset>
                         <legend>Vos paramêtres de connexion</legend>
-                        <div class="col-md-12">
-                            <div class="well-block">
-                                <div class="row">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="cfield">
+                                    <input type="text" placeholder="Entrer votre numéro de téléphone" name="telephone" />
+                                    <i class="la la-credit-card"></i>
+                                </div><br>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="cfield">
+                                    <input type="text" placeholder="Entrer votre email" name="email"/>
+                                    <i class="la la-credit-card"></i>
+                                </div><br>
+                            </div>
 
-                                    <div class="col-lg-6">
-                                        <div class="form-group required">
-                                            <span class="pf-title" style="left: 10%">Téléphone</span>
-                                            <input name="telephone" required="" type="text" class="form-control " id="registerTelephone" placeholder="Entrer votre numéro de téléphone" data-mask="00 00 00 00 00 00">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group required">
-                                            <span class="pf-title" style="left: 10%">Email</span>
-                                            <input name="email" required="" type="email" class="form-control " id="accountEmail" placeholder="Entrer votre email">
-                                        </div>
-                                    </div>
+                            <div class="col-lg-6">
+                                <div class="cfield">
+                                    <input type="password" placeholder="Taper votre mot de passe" name="password" />
+                                    <i class="la la-credit-card"></i>
+                                </div><br>
+                            </div>
 
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group required">
-                                            <span class="pf-title"  style="left: 10%">Nouveau mot de passe</span>
-                                            <input name="password" required="" type="password" class="form-control" id="accountPassword" placeholder=" Taper votre mot de passe ">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group required">
-                                            <span class="pf-title" style="left: 10%">Confirmer le nouveau mot de passe</span>
-                                            <input name="password_confirmation" required="" type="password" class="form-control" id="accountPasswordConfirm" placeholder=" Retaper votre mot de passe ">
-                                        </div>
-
-                                        <input type="hidden" id="send_invite" name="send_invite" value="1">
-
-                                    </div>
-                                </div>
+                            <div class="col-lg-6">
+                                <div class="cfield">
+                                    <input type="password" placeholder="Retaper votre mot de passe" name="password1" />
+                                    <i class="la la-credit-card"></i>
+                                </div><br>
                             </div>
                         </div>
                     </fieldset>
-
-
                 </div>
 
-
-                <button type="submit">Soumettre</button>
+                <button type="submit" style="background-color: #28a745;">Soumettre</button>
             </form>
 
         <div class="extra-login">
-            <span>Or</span>
+            <span>Ou</span>
             <div class="login-social">
                 <a class="fb-login" href="#" title=""><i class="fa fa-facebook"></i></a>
                 <a class="tw-login" href="#" title=""><i class="fa fa-twitter"></i></a>

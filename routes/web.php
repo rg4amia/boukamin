@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/{any?}', function () {
+Route::get('/', function () {
     return view('frontend.HomePage');
 })->where('any', '^(?!api\/)[\/\w\.-]*');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
