@@ -22,9 +22,9 @@
 </head>
 <body>
 
-<div class="page-loading">
+{{--<div class="page-loading">
     <img src="{{ asset('assets_aepj/images/loader.gif') }}" alt="" />
-</div>
+</div>--}}
 
 <div class="theme-layout" id="scrollup">
 
@@ -433,20 +433,20 @@
                             <div class="job-listing">
                                 <div class="job-title-sec">
                                     <div class="c-logo"> <img src="{{ asset('assets_aepj/images/resource/l1.png') }}" alt="" /> </div>
-                                    <h3><a href="#" title="">Web Designer / Developer</a></h3>
-                                    <span>Massimo Artemisis</span>
+                                    <h3><a href="#" title="">Developpeur web / Designer</a></h3>
+                                    <span>Kouakou Kouakou i.</span>
                                 </div>
-                                <span class="job-lctn"><i class="la la-map-marker"></i>Sacramento, California</span>
+                                <span class="job-lctn"><i class="la la-map-marker"></i>Yamoussoukro, Lac</span>
                                 <span class="fav-job"><i class="la la-heart-o"></i></span>
                                 <span class="job-is ft">FULL TIME</span>
                             </div><!-- Job -->
                             <div class="job-listing">
                                 <div class="job-title-sec">
                                     <div class="c-logo"> <img src="{{ asset('assets_aepj/images/resource/l2.png') }}" alt="" /> </div>
-                                    <h3><a href="#" title="">Marketing Director</a></h3>
-                                    <span>Tix Dog</span>
+                                    <h3><a href="#" title="">Directeur du marketing</a></h3>
+                                    <span>Amon Ama</span>
                                 </div>
-                                <span class="job-lctn"><i class="la la-map-marker"></i>Rennes, France</span>
+                                <span class="job-lctn"><i class="la la-map-marker"></i>Abidjan, Côte d'Ivoire</span>
                                 <span class="fav-job"><i class="la la-heart-o"></i></span>
                                 <span class="job-is pt">PART TIME</span>
                             </div><!-- Job -->
@@ -454,26 +454,26 @@
                                 <div class="job-title-sec">
                                     <div class="c-logo"> <img src="{{ asset('assets_aepj/images/resource/l3.png') }}" alt="" /> </div>
                                     <h3><a href="#" title="">C Developer (Senior) C .Net</a></h3>
-                                    <span>StarHealth</span>
+                                    <span>Touré touré</span>
                                 </div>
-                                <span class="job-lctn"><i class="la la-map-marker"></i>London, United Kingdom</span>
+                                <span class="job-lctn"><i class="la la-map-marker"></i>Daloa, Côte d'ivoire</span>
                                 <span class="fav-job"><i class="la la-heart-o"></i></span>
                                 <span class="job-is ft">FULL TIME</span>
                             </div><!-- Job -->
                             <div class="job-listing">
                                 <div class="job-title-sec">
                                     <div class="c-logo"> <img src="{{ asset('assets_aepj/images/resource/l4.png') }}" alt="" /> </div>
-                                    <h3><a href="#" title="">Application Developer For Android</a></h3>
-                                    <span>Altes Bank</span>
+                                    <h3><a href="#" title="">Développeur d'applications pour Android</a></h3>
+                                    <span>Bola Yves</span>
                                 </div>
-                                <span class="job-lctn"><i class="la la-map-marker"></i>Istanbul, Turkey</span>
+                                <span class="job-lctn"><i class="la la-map-marker"></i>San-pedro, Côte d'ivoire</span>
                                 <span class="fav-job"><i class="la la-heart-o"></i></span>
                                 <span class="job-is fl">FREELANCE</span>
                             </div><!-- Job -->
                             <div class="job-listing">
                                 <div class="job-title-sec">
                                     <div class="c-logo"> <img src="{{ asset('assets_aepj/images/resource/l5.png') }}" alt="" /> </div>
-                                    <h3><a href="#" title="">Regional Sales Manager South east Asia</a></h3>
+                                    <h3><a href="#" title="">Responsable régional des ventes pour l'Asie du Sud-Est</a></h3>
                                     <span>Vincent</span>
                                 </div>
                                 <span class="job-lctn"><i class="la la-map-marker"></i>Ajax, Ontario</span>
@@ -483,7 +483,7 @@
                             <div class="job-listing">
                                 <div class="job-title-sec">
                                     <div class="c-logo"> <img src="{{ asset('assets_aepj/images/resource/l6.png') }}" alt="" /> </div>
-                                    <h3><a href="#" title="">Social Media and Public Relation Executive </a></h3>
+                                    <h3><a href="#" title="">Responsable des médias sociaux et des relations publiques </a></h3>
                                     <span>MediaLab</span>
                                 </div>
                                 <span class="job-lctn"><i class="la la-map-marker"></i>Ankara / Turkey</span>
@@ -494,7 +494,7 @@
                     </div>
                     <div class="col-lg-12">
                         <div class="browse-all-cat">
-                            <a href="#" title="">Load more listings</a>
+                            <a href="#" title="">Charger d'autres listes</a>
                         </div>
                     </div>
                 </div>
@@ -673,7 +673,7 @@
                         <div class="widget">
                             <div class="about_widget">
                                 <div class="logo">
-                                    <a href="index.html" title=""><img src="{{ asset('assets_aepj/images/resource/logo.png') }}" alt="" /></a>
+                                    <a href="index.html" title=""><img src="{{ asset('assets_aepj/images/resource/logo-ajep.png') }}" alt="" /></a>
                                 </div>
                                 <span>Abidjan plateau.</span>
                                 <span>+225 47500630 </span>
@@ -754,15 +754,15 @@
 <div class="account-popup-area signin-popup-box">
     <div class="account-popup" style="width: 460px; left: 50%;">
         <span class="close-popup"><i class="la la-close"></i></span>
-        <h3>User Login</h3>
-        <span>Click To Login With Demo User</span>
+        <h3>Connexion</h3>
+        <span>Cliquez pour vous connecter avec l'utilisateur</span>
         <div class="select-user">
             <span>Candidate</span>
             <span>Employer</span>
         </div>
-        <form>
+        <form action="{{route('dashboard')}}" method="GET">
             <div class="cfield">
-                <input type="text" placeholder="Username" />
+                <input type="text" placeholder="nom utilisateur" />
                 <i class="la la-user"></i>
             </div>
             <div class="cfield">
@@ -770,10 +770,10 @@
                 <i class="la la-key"></i>
             </div>
             <p class="remember-label">
-                <input type="checkbox" name="cb" id="cb1"><label for="cb1">Remember me</label>
+                <input type="checkbox" name="cb" id="cb1"><label for="cb1">Se souvenir de moi</label>
             </p>
-            <a href="#" title="">Forgot Password?</a>
-            <button type="submit">Login</button>
+            <a href="#" title="">Mot de passe oublié?</a>
+            <button type="submit">Connecter</button>
         </form>
         <div class="extra-login">
             <span>Or</span>

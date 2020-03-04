@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Job Hunt</title>
+    <title>Tableau de Bord Candidat</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -22,10 +22,10 @@
 </head>
 <body>
 
-<div class="page-loading">
+{{--<div class="page-loading">
     <img src="{{ asset('assets_aepj/images/loader.gif') }}" alt="" />
     <span>Skip Loader</span>
-</div>
+</div>--}}
 
 <div class="theme-layout" id="scrollup">
 
@@ -163,7 +163,7 @@
                     <a href="index.html" title=""><img src="{{ asset('assets_aepj/images/resource/logo-ajep.png') }}" alt="" /></a>
                 </div><!-- Logo -->
                 <div class="my-profiles-sec">
-                    <span><img src="images/resource/mp1.jpg" alt="" /> Stephane AMIA <i class="la la-bars"></i></span>
+                    <span><img src="assets_aepj/images/resource/mp1.jpg" alt="" /> Stephane AMIA <i class="la la-bars"></i></span>
                 </div>
                 <div class="wishlist-dropsec">
                     <span><i class="la la-heart"></i><strong>3</strong></span>
@@ -172,7 +172,7 @@
                             <li>
                                 <div class="job-listing">
                                     <div class="job-title-sec">
-                                        <div class="c-logo"> <img src="images/resource/l1.png" alt="" /> </div>
+                                        <div class="c-logo"> <img src="assets_aepj/images/resource/l1.png" alt="" /> </div>
                                         <h3><a href="#" title="">Web Designer / Developer</a></h3>
                                         <span>Massimo Artemisis</span>
                                     </div>
@@ -181,7 +181,7 @@
                             <li>
                                 <div class="job-listing">
                                     <div class="job-title-sec">
-                                        <div class="c-logo"> <img src="images/resource/l2.png" alt="" /> </div>
+                                        <div class="c-logo"> <img src="assets_aepj/images/resource/l2.png" alt="" /> </div>
                                         <h3><a href="#" title="">C Developer (Senior) C .Net</a></h3>
                                         <span>StarHealth</span>
                                     </div>
@@ -190,7 +190,7 @@
                             <li>
                                 <div class="job-listing">
                                     <div class="job-title-sec">
-                                        <div class="c-logo"> <img src="images/resource/l3.png" alt="" /> </div>
+                                        <div class="c-logo"> <img src="assets_aepj/images/resource/l3.png" alt="" /> </div>
                                         <h3><a href="#" title="">Marketing Director</a></h3>
                                         <span>Tix Dog</span>
                                     </div>
@@ -199,7 +199,7 @@
                             <li>
                                 <div class="job-listing">
                                     <div class="job-title-sec">
-                                        <div class="c-logo"> <img src="images/resource/l4.png" alt="" /> </div>
+                                        <div class="c-logo"> <img src="assets_aepj/images/resource/l4.png" alt="" /> </div>
                                         <h3><a href="#" title="">Web Designer / Developer</a></h3>
                                         <span>Massimo Artemisis</span>
                                     </div>
@@ -208,7 +208,7 @@
                             <li>
                                 <div class="job-listing">
                                     <div class="job-title-sec">
-                                        <div class="c-logo"> <img src="images/resource/l5.png" alt="" /> </div>
+                                        <div class="c-logo"> <img src="assets_aepj/images/resource/l5.png" alt="" /> </div>
                                         <h3><a href="#" title="">Web Designer / Developer</a></h3>
                                         <span>Massimo Artemisis</span>
                                     </div>
@@ -298,7 +298,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="inner-header">
-                            <h3>Welcome Ali TUFAN</h3>
+                            <h3>AKWABA Amia Thierry Stèphane</h3>
                         </div>
                     </div>
                 </div>
@@ -372,7 +372,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="border-title"><h3>Work Experience</h3><a href="#" title=""><i class="la la-plus"></i> Add Experience</a></div>
+                                <div class="border-title"><h3>Expérience professionnelle</h3><a href="#" title=""><i class="la la-plus"></i> Add Experience</a></div>
                                 <div class="edu-history-sec">
                                     <div class="edu-history style2">
                                         <i></i>
@@ -432,7 +432,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="border-title"><h3>Professional Skills</h3><a href="#" title=""><i class="la la-plus"></i> Add Skills</a></div>
+                                <div class="border-title"><h3>Compétences professionnelles</h3><a href="#" title=""><i class="la la-plus"></i> Add Skills</a></div>
                                 <div class="progress-sec">
                                     <div class="progress-sec with-edit">
                                         <span>Adobe Photoshop</span>
@@ -459,7 +459,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="border-title"><h3>Professional Skills</h3><a href="#" title=""><i class="la la-plus"></i> Add Skills</a></div>
+                                <div class="border-title"><h3>Compétences professionnelles</h3><a href="#" title=""><i class="la la-plus"></i> Add Skills</a></div>
                                 <div class="edu-history-sec">
                                     <div class="edu-history style2">
                                         <i></i>
@@ -514,11 +514,14 @@
                         <div class="widget">
                             <div class="about_widget">
                                 <div class="logo">
-                                    <a href="index.html" title=""><img src="images/resource/logo.png" alt="" /></a>
+                                    <a href="index.html" title=""><img src="{{ asset('assets_aepj/images/resource/logo-ajep.png') }}" alt="" /></a>
                                 </div>
-                                <span>Collin Street West, Victor 8007, Australia.</span>
-                                <span>+1 246-345-0695</span>
-                                <span><a href="cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6c05020a032c06030e04190218420f0301">[email&#160;protected]</a></span>
+                                <span>Abidjan plateau.</span>
+                                <span>+225 47500630 </span>
+                                <span>
+                                    <a href="#">r4gamia@gmail.com</a>
+                                    {{--<a href="cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bcd5d2dad3fcd6d3ded4c9d2c892dfd3d1">[email&#160;protected]</a>--}}
+                                </span>
                                 <div class="social">
                                     <a href="#" title=""><i class="fa fa-facebook"></i></a>
                                     <a href="#" title=""><i class="fa fa-twitter"></i></a>
@@ -531,23 +534,23 @@
                     </div>
                     <div class="col-lg-4 column">
                         <div class="widget">
-                            <h3 class="footer-title">Frequently Asked Questions</h3>
+                            <h3 class="footer-title">Foire aux questions</h3>
                             <div class="link_widgets">
                                 <div class="row">
-                                    <div class="col-lg-6">
-                                        <a href="#" title="">Privacy & Seurty </a>
-                                        <a href="#" title="">Terms of Serice</a>
-                                        <a href="#" title="">Communications </a>
-                                        <a href="#" title="">Referral Terms </a>
-                                        <a href="#" title="">Lending Licnses </a>
-                                        <a href="#" title="">Disclaimers </a>
-                                    </div>
+                                    {{-- <div class="col-lg-6">
+                                         <a href="#" title="">Privacy & Seurty </a>
+                                         <a href="#" title="">Terms of Serice</a>
+                                         <a href="#" title="">Communications </a>
+                                         <a href="#" title="">Referral Terms </a>
+                                         <a href="#" title="">Lending Licnses </a>
+                                         <a href="#" title="">Disclaimers </a>
+                                     </div>--}}
                                     <div class="col-lg-6">
                                         <a href="#" title="">Support </a>
-                                        <a href="#" title="">How It Works </a>
-                                        <a href="#" title="">For Employers </a>
-                                        <a href="#" title="">Underwriting </a>
-                                        <a href="#" title="">Contact Us</a>
+                                        <a href="#" title="">Comment cela fonctionne-t-il ? </a>
+                                        <a href="#" title="">Pour les employeurs </a>
+                                        <a href="#" title="">Souscription </a>
+                                        <a href="#" title="">Contactez-nous</a>
                                     </div>
                                 </div>
                             </div>
@@ -555,14 +558,14 @@
                     </div>
                     <div class="col-lg-2 column">
                         <div class="widget">
-                            <h3 class="footer-title">Find Jobs</h3>
+                            <h3 class="footer-title">Trouver un emploi</h3>
                             <div class="link_widgets">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <a href="#" title="">US Jobs</a>
-                                        <a href="#" title="">Canada Jobs</a>
-                                        <a href="#" title="">UK Jobs</a>
-                                        <a href="#" title="">Emplois en Fnce</a>
+                                        <a href="#" title="">Abidjan Jobs</a>
+                                        <a href="#" title="">Korogho Jobs</a>
+                                        <a href="#" title="">Yamoussoukro Jobs</a>
+                                        <a href="#" title="">Macory Jobs</a>
                                         <a href="#" title="">Jobs in Deuts</a>
                                         <a href="#" title="">Vacatures China</a>
                                     </div>
@@ -573,8 +576,8 @@
                     <div class="col-lg-3 column">
                         <div class="widget">
                             <div class="download_widget">
-                                <a href="#" title=""><img src="images/resource/dw1.png" alt="" /></a>
-                                <a href="#" title=""><img src="images/resource/dw2.png" alt="" /></a>
+                                <a href="#" title=""><img src="{{ asset('assets_aepj/images/resource/dw1.png') }}" alt="" /></a>
+                                <a href="#" title=""><img src="{{ asset('assets_aepj/images/resource/dw2.png') }}" alt="" /></a>
                             </div>
                         </div>
                     </div>
@@ -593,8 +596,8 @@
     <span class="close-profile"><i class="la la-close"></i></span>
     <div class="can-detail-s">
         <div class="cst"><img src="images/resource/es1.jpg" alt="" /></div>
-        <h3>David CARLOS</h3>
-        <span><i>UX / UI Designer</i> at Atract Solutions</span>
+        <h3>Mr BAMBA</h3>
+        <span><i>Administrateur Base</i> Données</span>
         <p><a href="cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f093829591849986959c9189958283c0c8c8b0979d91999cde939f9d">[email&#160;protected]</a></p>
         <p>Member Since, 2017</p>
         <p><i class="la la-map-marker"></i>Istanbul / Turkey</p>
@@ -725,16 +728,15 @@
     </div>
 </div>
 
-<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.min.js" type="text/javascript"></script>
-<script src="js/modernizr.js" type="text/javascript"></script>
-<script src="js/script.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-<script src="js/wow.min.js" type="text/javascript"></script>
-<script src="js/slick.min.js" type="text/javascript"></script>
-<script src="js/parallax.js" type="text/javascript"></script>
-<script src="js/select-chosen.js" type="text/javascript"></script>
-<script src="js/jquery.scrollbar.min.js" type="text/javascript"></script>
-<script src="js/circle-progress.min.js" type="text/javascript"></script>
+<script data-cfasync="false" src="{{ asset('assets_aepj/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js') }}"></script>
+<script src="{{ asset('assets_aepj/js/jquery.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets_aepj/js/modernizr.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets_aepj/js/script.js') }}" type="text/javascript"></script>
+<script src="{{asset('assets_aepj/js/bootstrap.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets_aepj/js/wow.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets_aepj/js/slick.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets_aepj/js/parallax.js')}}" type="text/javascript"></script>
+<script src="{{asset('assets_aepj/js/select-chosen.js')}}" type="text/javascript"></script>
 
 </body>
 </html>
