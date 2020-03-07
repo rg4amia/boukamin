@@ -517,28 +517,28 @@
                                 <div class="reviews">
                                     <img src="{{ asset('assets_aepj/images/resource/r1.jpg') }}" alt="" />
                                     <h3>Augusta Silva <span>Web designer</span></h3>
-                                    <p>Without JobHunt i’d be homeless, they found me a job and got me sorted out quickly with everything!  Can’t quite believe the service</p>
+                                    <p>Sans l' AEJ, je serais sans abri, ils m'ont trouvé un emploi et m'ont vite remis sur pied avec tout ce que j'avais !  Je n'arrive pas à croire que le service</p>
                                 </div><!-- Reviews -->
                             </div>
                             <div class="col-lg-6">
                                 <div class="reviews">
                                     <img src="{{ asset('assets_aepj/images/resource/r2.jpg') }}" alt="" />
                                     <h3>Ali Tufan <span>Web designer</span></h3>
-                                    <p>Without JobHunt i’d be homeless, they found me a job and got me sorted out quickly with everything!  Can’t quite believe the service</p>
+                                    <p>Sans l' AEJ, je serais sans abri, ils m'ont trouvé un emploi et m'ont vite remis sur pied avec tout ce que j'avais !  Je n'arrive pas à croire que le service</p>
                                 </div><!-- Reviews -->
                             </div>
                             <div class="col-lg-6">
                                 <div class="reviews">
-                                    <img src="{{ asset('assets_aepj/images/resource/r1.jpg') }}" alt="" />
+                                    <img src="{{ asset('assets_aepj/images/resource/r3.jpg') }}" alt="" />
                                     <h3>Augusta Silva <span>Web designer</span></h3>
-                                    <p>Without JobHunt i’d be homeless, they found me a job and got me sorted out quickly with everything!  Can’t quite believe the service</p>
+                                    <p>Sans l' AEJ, je serais sans abri, ils m'ont trouvé un emploi et m'ont vite remis sur pied avec tout ce que j'avais !  Je n'arrive pas à croire que le service</p>
                                 </div><!-- Reviews -->
                             </div>
                             <div class="col-lg-6">
                                 <div class="reviews">
-                                    <img src="{{ asset('assets_aepj/images/resource/r2.jpg') }}" alt="" />
+                                    <img src="{{ asset('assets_aepj/images/resource/r4.jpg') }}" alt="" />
                                     <h3>Ali Tufan <span>Web designer</span></h3>
-                                    <p>Without JobHunt i’d be homeless, they found me a job and got me sorted out quickly with everything!  Can’t quite believe the service</p>
+                                    <p>Sans l' AEJ, je serais sans abri, ils m'ont trouvé un emploi et m'ont vite remis sur pied avec tout ce que j'avais !  Je n'arrive pas à croire que le service</p>
                                 </div><!-- Reviews -->
                             </div>
                         </div>

@@ -163,7 +163,7 @@
                     <a href="index.html" title=""><img src="{{ asset('assets_aepj/images/resource/logo-ajep.png') }}" alt="" /></a>
                 </div><!-- Logo -->
                 <div class="my-profiles-sec">
-                    <span><img src="assets_aepj/images/resource/mp1.jpg" alt="" /> Stephane AMIA <i class="la la-bars"></i></span>
+                    <span><img src="assets_aepj/images/resource/mp1.jpg" alt=""/> Stephane AMIA <i class="la la-bars"></i></span>
                 </div>
                 <div class="wishlist-dropsec">
                     <span><i class="la la-heart"></i><strong>3</strong></span>
@@ -314,18 +314,18 @@
                         <div class="widget">
                             <div class="tree_widget-sec">
                                 <ul>
-                                    <li><a href="candidates_profile.html" title=""><i class="la la-file-text"></i>Mon Profile</a></li>
-                                    <li><a href="candidates_my_resume.html" title=""><i class="la la-briefcase"></i>A propos de moi</a></li>
-                                    <li><a href="candidates_shortlist.html" title=""><i class="la la-money"></i>Emploi présélectionné</a></li>
-                                    <li><a href="candidates_applied_jobs.html" title=""><i class="la la-paper-plane"></i>Emploi appliqué</a></li>
-                                    <li><a href="candidates_job_alert.html" title=""><i class="la la-user"></i>Job Alerts</a></li>
-                                    <li><a href="candidates_cv_cover_letter.html" title=""><i class="la la-file-text"></i>Cv et LM</a></li>
-                                    <li><a href="candidates_change_password.html" title=""><i class="la la-flash"></i>Changer de mot de passe</a></li>
-                                    <li><a href="#" title=""><i class="la la-unlink"></i>Logout</a></li>
+                                    <li><a href="candidates_profile.html" title=""><i class="la la-file-text"></i>Tableau de bord</a></li>
+                                    <li><a href="candidates_my_resume.html" title=""><i class="la la-briefcase"></i>Profil</a></li>
+                                    <li><a href="candidates_shortlist.html" title=""><i class="la la-money"></i>Emplois</a></li>
+                                    <li><a href="candidates_applied_jobs.html" title=""><i class="la la-paper-plane"></i>Formations</a></li>
+                                    <li><a href="candidates_job_alert.html" title=""><i class="la la-user"></i>Financement</a></li>
+                                    <li><a href="candidates_cv_cover_letter.html" title=""><i class="la la-file-text"></i>Allocations</a></li>
+                                    <li><a href="candidates_change_password.html" title=""><i class="la la-flash"></i>Offres et concours</a></li>
+                                    <li><a href="#" title=""><i class="la la-unlink"></i>Retour au site</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="widget">
+                       {{-- <div class="widget">
                             <div class="skill-perc">
                                 <h3>Skills Percentage </h3>
                                 <p>Put value for "Cover Image" field to increase your skill up to "15%"</p>
@@ -338,13 +338,17 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>--}}
                     </aside>
                     <div class="col-lg-9 column">
                         <div class="padding-left">
                             <div class="manage-jobs-sec">
-                                <div class="border-title"><h3>Candidates Dashboard</h3><a href="#" title=""><i class="la la-plus"></i> Add Education</a></div>
-                                <div class="edu-history-sec">
+                                <div class="border-title"><h3>Tableau de bord </h3>
+                                   {{-- <a href="#" title="">
+                                        <i class="la la-plus"></i> Add Education
+                                    </a>--}}
+                                </div>
+                                {{--<div class="edu-history-sec">
                                     <div class="edu-history">
                                         <i class="la la-graduation-cap"></i>
                                         <div class="edu-hisinfo">
@@ -371,8 +375,8 @@
                                             <li><span>Delete</span><a href="#" title=""><i class="la la-trash-o"></i></a></li>
                                         </ul>
                                     </div>
-                                </div>
-                                <div class="border-title"><h3>Expérience professionnelle</h3><a href="#" title=""><i class="la la-plus"></i> Add Experience</a></div>
+                                </div>--}}
+                               {{-- <div class="border-title"><h3>Expérience professionnelle</h3><a href="#" title=""><i class="la la-plus"></i> Add Experience</a></div>
                                 <div class="edu-history-sec">
                                     <div class="edu-history style2">
                                         <i></i>
@@ -497,7 +501,7 @@
                                             <li><span>Delete</span><a href="#" title=""><i class="la la-trash-o"></i></a></li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div>--}}
                             </div>
                         </div>
                     </div>
