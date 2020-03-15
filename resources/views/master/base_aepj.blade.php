@@ -309,8 +309,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="heading">
-                            <h2>Popular Categories</h2>
-                            <span>37 jobs live - 0 added today.</span>
+                            <h2>Catégories populaires</h2>
+                            <span>37 emplois en direct - 0 ajouté aujourd'hui.</span>
                         </div><!-- Heading -->
                         <div class="cat-sec">
                             <div class="row no-gape">
@@ -762,18 +762,32 @@
         </div>
         <form action="{{route('dashboard')}}" method="GET">
             <div class="cfield">
-                <input type="text" placeholder="nom utilisateur" />
+                <input type="text" placeholder="Adresse mail" name="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" />
+                @if ($errors->has('email'))
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $errors->first('email') }}</strong>
+                    </span>
+                @endif
                 <i class="la la-user"></i>
             </div>
             <div class="cfield">
-                <input type="password" placeholder="********" />
+                <input type="password" placeholder="********" name="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}"/>
+                @if ($errors->has('password'))
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $errors->first('password') }}</strong>
+                    </span>
+                @endif
                 <i class="la la-key"></i>
             </div>
             <p class="remember-label">
-                <input type="checkbox" name="cb" id="cb1"><label for="cb1">Se souvenir de moi</label>
+                <input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}><label for="cb1">Se souvenir de moi</label>
             </p>
-            <a href="#" title="">Mot de passe oublié?</a>
-            <button type="submit">Connecter</button>
+            @if (Route::has('password.request'))
+                <a class="btn btn-link" href="{{ route('password.request') }}">
+                    {{ __('Mot de passe oublié?') }}
+                </a>
+            @endif
+            <button type="submit">{{ __('Conneter') }}</button>
         </form>
         <div class="extra-login">
             <span>Or</span>
@@ -4466,6 +4480,6 @@
        $('#form-entreprise').fadeOut();
     });
 </script>
-
+@include('flashy::message')
 </body>
 </html>

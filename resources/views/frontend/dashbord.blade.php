@@ -31,7 +31,7 @@
 
     <div class="responsive-header">
         <div class="responsive-menubar">
-            <div class="res-logo"><a href="index.html" title=""><img src="{{ asset('logo-ajep.png') }}" alt="" /></a></div>
+            <div class="res-logo"><a href="{{route('home')}}" title=""><img src="{{ asset('logo-ajep.png') }}" alt="" /></a></div>
             <div class="menu-resaction">
                 <div class="res-openmenu">
                     <img src="{{ asset('assets_aepj/images/icon.png') }}" alt="" /> Menu
@@ -46,7 +46,7 @@
                 <a href="#" title="" class="post-job-btn"><i class="la la-plus"></i>Annonces</a>
                 <ul class="account-btns">
                     <li class="signup-popup"><a title=""><i class="la la-key"></i>S'enregistrer</a></li>
-                    <li class="signin-popup"><a title=""><i class="la la-external-link-square"></i> se connecter</a></li>
+                    <li class="signin-popup"><a title=""><i class="la la-external-link-square"></i> Se connecter</a></li>
                 </ul>
             </div><!-- Btn Extras -->
             <form class="res-search">
@@ -160,7 +160,7 @@
         <div class="menu-sec">
             <div class="container">
                 <div class="logo">
-                    <a href="index.html" title=""><img src="{{ asset('assets_aepj/images/resource/logo-ajep.png') }}" alt="" /></a>
+                    <a href="{{route('home')}}" title=""><img src="{{ asset('assets_aepj/images/resource/logo-ajep.png') }}" alt="" /></a>
                 </div><!-- Logo -->
                 <div class="my-profiles-sec">
                     <span><img src="assets_aepj/images/resource/mp1.jpg" alt=""/> Stephane AMIA <i class="la la-bars"></i></span>
@@ -293,7 +293,7 @@
 
     <section class="overlape">
         <div class="block no-padding">
-            <div data-velocity="-.1" style="background: url(images/resource/mslider1.jpg) repeat scroll 50% 422.28px transparent;" class="parallax scrolly-invisible no-parallax"></div><!-- PARALLAX BACKGROUND IMAGE -->
+            <div data-velocity="-.1" style="background: url({{asset('assets_aepj/images/slide/entrepreneuriat-500.jpg')}}) repeat scroll 50% 422.28px transparent;" class="parallax scrolly-invisible no-parallax"></div><!-- PARALLAX BACKGROUND IMAGE -->
             <div class="container fluid">
                 <div class="row">
                     <div class="col-lg-12">
@@ -344,9 +344,9 @@
                         <div class="padding-left">
                             <div class="manage-jobs-sec">
                                 <div class="border-title"><h3>Tableau de bord </h3>
-                                   {{-- <a href="#" title="">
+                                    <a href="#" title="">
                                         <i class="la la-plus"></i> Add Education
-                                    </a>--}}
+                                    </a>
                                 </div>
                                 {{--<div class="edu-history-sec">
                                     <div class="edu-history">
@@ -741,7 +741,7 @@
 <script src="{{asset('assets_aepj/js/slick.min.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets_aepj/js/parallax.js')}}" type="text/javascript"></script>
 <script src="{{asset('assets_aepj/js/select-chosen.js')}}" type="text/javascript"></script>
-
+@include('flashy::message')
 </body>
 </html>
 
