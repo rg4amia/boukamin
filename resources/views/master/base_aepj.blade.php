@@ -744,7 +744,7 @@
             </div>
         </div>
         <div class="bottom-line">
-            <span>© 2018 Jobhunt All rights reserved. Design by Creative Layers</span>
+            <span>© 2020 (AEJ) Agence Emploie Jeune All rights reserved. Design by r4gamia</span>
             <a href="#scrollup" class="scrollup" title=""><i class="la la-arrow-up"></i></a>
         </div>
     </footer>
@@ -760,7 +760,8 @@
             <span>Candidate</span>
             <span>Employer</span>
         </div>
-        <form action="{{route('dashboard')}}" method="GET">
+        <form action="{{ route('login') }}" method="POST">
+            @csrf
             <div class="cfield">
                 <input type="text" placeholder="Adresse mail" name="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" />
                 @if ($errors->has('email'))
